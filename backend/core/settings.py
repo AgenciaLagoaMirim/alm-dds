@@ -48,7 +48,7 @@ INSTALLED_APPS = [
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "alm_dds_vue",
+        "NAME": "teste_dds",
         "USER": "postgres",
         "PASSWORD": "admin",
         "HOST": "localhost",
