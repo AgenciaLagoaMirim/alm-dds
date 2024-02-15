@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type= "text/xsl" href="QRevStylesheet.xsl"?>
+<Channel QRevFilename="20180411_Tarde_QRev" QRevVersion="QRev - 3.43">
+   <SiteInformation>
+      <StationName type="char">Casa Santa Isabel</StationName>
+      <SiteID type="char">HS-SL-SG-02</SiteID>
+   </SiteInformation>
+   <QA>
+      <DiagnosticTestResult type="char">None</DiagnosticTestResult>
+      <CompassCalibrationResult type="char">No</CompassCalibrationResult>
+      <DiagnosticTest>
+         <Text type="char"> </Text>
+      </DiagnosticTest>
+      <TemperatureCheck>
+         <TemperatureChange type="double" unitsCode="degC">1.43</TemperatureChange>
+      </TemperatureCheck>
+      <QRev_Message type="char">Transects: Duration of selected transects is less than 720 seconds;
+SYSTEM TEST: No system test;
+Temperature: Temperature range is 1.4 degrees C which is greater than 1 degree;
+Temperature: No independent temperature reading;
+MOVING-BED TEST: No moving bed test;
+Extrapolation: The extrapolation uncertainty is more than 2 percent;
+    Carefully review the extrapolation;
+Edges: The excluded distance caused invalid ensembles in an edge check edge distance;
+</QRev_Message>
+   </QA>
+   <Instrument>
+      <Manufacturer type="char">SonTek</Manufacturer>
+      <Model type="char">M9</Model>
+      <SerialNumber type="char">4602</SerialNumber>
+      <FirmwareVersion type="char">4.02</FirmwareVersion>
+      <Frequency type="char" unitsCode="kHz">Multi</Frequency>
+      <BeamAngle type="double" unitsCode="deg">25</BeamAngle>
+      <BlankingDistance type="double" unitsCode="m">0.16</BlankingDistance>
+   </Instrument>
+   <Processing>
+      <SoftwareVersion type="char">QRev - 3.43</SoftwareVersion>
+      <Type type="char">QRev</Type>
+      <AreaComputationMethod type="char">Parallel</AreaComputationMethod>
+      <Navigation>
+         <Reference type="char">BT</Reference>
+         <CompositeTrack type="char">Off</CompositeTrack>
+         <MagneticVariation type="double" unitsCode="deg">-14.92</MagneticVariation>
+         <BeamFilter type="char">Auto</BeamFilter>
+         <ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+         <VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+         <OtherFilter type="char">Off</OtherFilter>
+         <InterpolationType type="char">Linear</InterpolationType>
+      </Navigation>
+      <Depth>
+         <Reference type="char">VB</Reference>
+         <CompositeDepth type="char">Off</CompositeDepth>
+         <ADCPDepth type="double" unitsCode="m">0.06</ADCPDepth>
+         <ADCPDepthConsistent type="boolean">Yes</ADCPDepthConsistent>
+         <FilterType type="char">Smooth</FilterType>
+         <InterpolationType type="char">Linear</InterpolationType>
+         <AveragingMethod type="char">None</AveragingMethod>
+         <ValidDataMethod type="char">QRev</ValidDataMethod>
+      </Depth>
+      <WaterTrack>
+         <ExcludedDistance type="double" unitsCode="m">0.16</ExcludedDistance>
+         <BeamFilter type="char">Auto</BeamFilter>
+         <ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+         <VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+         <OtherFilter type="char">Off</OtherFilter>
+         <SNRFilter type="char">Auto</SNRFilter>
+         <CellInterpolation type="char">TRDI</CellInterpolation>
+         <EnsembleInterpolation type="char">Linear</EnsembleInterpolation>
+      </WaterTrack>
+      <Edge>
+         <RectangularEdgeMethod type="char">Fixed</RectangularEdgeMethod>
+         <VelocityMethod type="char">MeasMag</VelocityMethod>
+         <LeftType type="char">Triangular</LeftType>
+         <LeftEdgeCoefficient type="char">0.3535</LeftEdgeCoefficient>
+         <RightType type="char">Triangular</RightType>
+         <RightEdgeCoefficient type="char">0.3535</RightEdgeCoefficient>
+      </Edge>
+      <Extrapolation>
+         <TopMethod type="char">Power</TopMethod>
+         <BottomMethod type="char">Power</BottomMethod>
+         <Exponent type="double">0.3856</Exponent>
+      </Extrapolation>
+      <Sensor>
+         <TemperatureSource type="char">internal</TemperatureSource>
+         <Salinity type="char" unitsCode="ppt">0</Salinity>
+         <SpeedofSound type="char" unitsCode="mps">ADCP</SpeedofSound>
+      </Sensor>
+   </Processing>
+   <Transect>
+      <Filename type="char">20180411170601.mat</Filename>
+      <StartDateTime type="char">04/11/2018 17:06:00</StartDateTime>
+      <EndDateTime type="char">04/11/2018 17:08:36</EndDateTime>
+      <Discharge>
+         <Top type="double" unitsCode="cms">6.272</Top>
+         <Middle type="double" unitsCode="cms">75.0991</Middle>
+         <Bottom type="double" unitsCode="cms">9.1443</Bottom>
+         <Left type="double" unitsCode="cms">0.084806</Left>
+         <Right type="double" unitsCode="cms">-0.1055</Right>
+         <Total type="double" unitsCode="cms">90.4947</Total>
+         <MovingBedPercentCorrection type="double">0</MovingBedPercentCorrection>
+      </Discharge>
+      <Edge>
+         <StartEdge type="char">Left</StartEdge>
+         <RectangularEdgeMethod type="char">Fixed</RectangularEdgeMethod>
+         <VelocityMethod type="char">MeasMag</VelocityMethod>
+         <LeftType type="char">Triangular</LeftType>
+         <LeftEdgeCoefficient type="double">0.3535</LeftEdgeCoefficient>
+         <LeftDistance type="double" unitsCode="m">5</LeftDistance>
+         <LeftNumberEnsembles type="double">28</LeftNumberEnsembles>
+         <RightType type="char">Triangular</RightType>
+         <RightEdgeCoefficient type="double">0.3535</RightEdgeCoefficient>
+         <RightDistance type="double" unitsCode="m">4</RightDistance>
+         <RightNumberEnsembles type="double">18</RightNumberEnsembles>
+      </Edge>
+      <Sensor>
+         <TemperatureSource type="char">internal</TemperatureSource>
+         <MeanTemperature type="double" unitsCode="degC">27.5151</MeanTemperature>
+         <MeanSalinity type="double" unitsCode="ppt">0</MeanSalinity>
+         <SpeedofSoundSource type="char">ADCP</SpeedofSoundSource>
+         <SpeedofSound type="double" unitsCode="mps">1502.9008</SpeedofSound>
+      </Sensor>
+      <Other>
+         <Duration type="double" unitsCode="sec">156</Duration>
+         <Width type="double" unitsCode="m">158.1482</Width>
+         <Area type="double" unitsCode="sqm">1084.373</Area>
+         <MeanBoatSpeed type="double" unitsCode="mps">1.0414</MeanBoatSpeed>
+         <QoverA type="double" unitsCode="mps">0.083453</QoverA>
+         <CourseMadeGood type="double" unitsCode="deg">163.2815</CourseMadeGood>
+         <MeanFlowDirection type="double" unitsCode="deg">87.167</MeanFlowDirection>
+         <NumberofEnsembles type="double">157</NumberofEnsembles>
+         <PercentInvalidBins type="double">3.6009</PercentInvalidBins>
+         <PercentInvalidEns type="double">9.5541</PercentInvalidEns>
+         <MeanPitch type="double" unitsCode="deg">-1.5922</MeanPitch>
+         <MeanRoll type="double" unitsCode="deg">-0.56962</MeanRoll>
+         <PitchStdDev type="double" unitsCode="deg">1.2212</PitchStdDev>
+         <RollStdDev type="double" unitsCode="deg">0.35587</RollStdDev>
+         <ADCPDepth type="double" unitsCode="m">0.06</ADCPDepth>
+      </Other>
+   </Transect>
+   <Transect>
+      <Filename type="char">20180411170841.mat</Filename>
+      <StartDateTime type="char">04/11/2018 17:08:40</StartDateTime>
+      <EndDateTime type="char">04/11/2018 17:11:43</EndDateTime>
+      <Discharge>
+         <Top type="double" unitsCode="cms">5.5097</Top>
+         <Middle type="double" unitsCode="cms">68.3808</Middle>
+         <Bottom type="double" unitsCode="cms">8.3014</Bottom>
+         <Left type="double" unitsCode="cms">0.22535</Left>
+         <Right type="double" unitsCode="cms">-0.020623</Right>
+         <Total type="double" unitsCode="cms">82.3965</Total>
+         <MovingBedPercentCorrection type="double">0</MovingBedPercentCorrection>
+      </Discharge>
+      <Edge>
+         <StartEdge type="char">Right</StartEdge>
+         <RectangularEdgeMethod type="char">Fixed</RectangularEdgeMethod>
+         <VelocityMethod type="char">MeasMag</VelocityMethod>
+         <LeftType type="char">Triangular</LeftType>
+         <LeftEdgeCoefficient type="double">0.3535</LeftEdgeCoefficient>
+         <LeftDistance type="double" unitsCode="m">5</LeftDistance>
+         <LeftNumberEnsembles type="double">19</LeftNumberEnsembles>
+         <RightType type="char">Triangular</RightType>
+         <RightEdgeCoefficient type="double">0.3535</RightEdgeCoefficient>
+         <RightDistance type="double" unitsCode="m">4</RightDistance>
+         <RightNumberEnsembles type="double">15</RightNumberEnsembles>
+      </Edge>
+      <Sensor>
+         <TemperatureSource type="char">internal</TemperatureSource>
+         <MeanTemperature type="double" unitsCode="degC">27.7009</MeanTemperature>
+         <MeanSalinity type="double" unitsCode="ppt">0</MeanSalinity>
+         <SpeedofSoundSource type="char">ADCP</SpeedofSoundSource>
+         <SpeedofSound type="double" unitsCode="mps">1503.3748</SpeedofSound>
+      </Sensor>
+      <Other>
+         <Duration type="double" unitsCode="sec">183</Duration>
+         <Width type="double" unitsCode="m">158.9705</Width>
+         <Area type="double" unitsCode="sqm">1092.2976</Area>
+         <MeanBoatSpeed type="double" unitsCode="mps">0.88924</MeanBoatSpeed>
+         <QoverA type="double" unitsCode="mps">0.075434</QoverA>
+         <CourseMadeGood type="double" unitsCode="deg">346.1721</CourseMadeGood>
+         <MeanFlowDirection type="double" unitsCode="deg">76.6562</MeanFlowDirection>
+         <NumberofEnsembles type="double">184</NumberofEnsembles>
+         <PercentInvalidBins type="double">19.8183</PercentInvalidBins>
+         <PercentInvalidEns type="double">17.9348</PercentInvalidEns>
+         <MeanPitch type="double" unitsCode="deg">-0.64288</MeanPitch>
+         <MeanRoll type="double" unitsCode="deg">-0.89228</MeanRoll>
+         <PitchStdDev type="double" unitsCode="deg">0.50606</PitchStdDev>
+         <RollStdDev type="double" unitsCode="deg">0.2424</RollStdDev>
+         <ADCPDepth type="double" unitsCode="m">0.06</ADCPDepth>
+      </Other>
+   </Transect>
+   <Transect>
+      <Filename type="char">20180411171148.mat</Filename>
+      <StartDateTime type="char">04/11/2018 17:11:48</StartDateTime>
+      <EndDateTime type="char">04/11/2018 17:14:27</EndDateTime>
+      <Discharge>
+         <Top type="double" unitsCode="cms">6.2339</Top>
+         <Middle type="double" unitsCode="cms">78.1324</Middle>
+         <Bottom type="double" unitsCode="cms">9.7484</Bottom>
+         <Left type="double" unitsCode="cms">0.28269</Left>
+         <Right type="double" unitsCode="cms">-0.0067395</Right>
+         <Total type="double" unitsCode="cms">94.3906</Total>
+         <MovingBedPercentCorrection type="double">0</MovingBedPercentCorrection>
+      </Discharge>
+      <Edge>
+         <StartEdge type="char">Left</StartEdge>
+         <RectangularEdgeMethod type="char">Fixed</RectangularEdgeMethod>
+         <VelocityMethod type="char">MeasMag</VelocityMethod>
+         <LeftType type="char">Triangular</LeftType>
+         <LeftEdgeCoefficient type="double">0.3535</LeftEdgeCoefficient>
+         <LeftDistance type="double" unitsCode="m">5</LeftDistance>
+         <LeftNumberEnsembles type="double">13</LeftNumberEnsembles>
+         <RightType type="char">Triangular</RightType>
+         <RightEdgeCoefficient type="double">0.3535</RightEdgeCoefficient>
+         <RightDistance type="double" unitsCode="m">4</RightDistance>
+         <RightNumberEnsembles type="double">10</RightNumberEnsembles>
+      </Edge>
+      <Sensor>
+         <TemperatureSource type="char">internal</TemperatureSource>
+         <MeanTemperature type="double" unitsCode="degC">27.1302</MeanTemperature>
+         <MeanSalinity type="double" unitsCode="ppt">0</MeanSalinity>
+         <SpeedofSoundSource type="char">ADCP</SpeedofSoundSource>
+         <SpeedofSound type="double" unitsCode="mps">1501.9026</SpeedofSound>
+      </Sensor>
+      <Other>
+         <Duration type="double" unitsCode="sec">159</Duration>
+         <Width type="double" unitsCode="m">157.0638</Width>
+         <Area type="double" unitsCode="sqm">1092.3848</Area>
+         <MeanBoatSpeed type="double" unitsCode="mps">0.95676</MeanBoatSpeed>
+         <QoverA type="double" unitsCode="mps">0.086408</QoverA>
+         <CourseMadeGood type="double" unitsCode="deg">161.0156</CourseMadeGood>
+         <MeanFlowDirection type="double" unitsCode="deg">76.7474</MeanFlowDirection>
+         <NumberofEnsembles type="double">160</NumberofEnsembles>
+         <PercentInvalidBins type="double">3.9951</PercentInvalidBins>
+         <PercentInvalidEns type="double">0</PercentInvalidEns>
+         <MeanPitch type="double" unitsCode="deg">-0.62825</MeanPitch>
+         <MeanRoll type="double" unitsCode="deg">-0.96238</MeanRoll>
+         <PitchStdDev type="double" unitsCode="deg">0.55096</PitchStdDev>
+         <RollStdDev type="double" unitsCode="deg">0.36028</RollStdDev>
+         <ADCPDepth type="double" unitsCode="m">0.06</ADCPDepth>
+      </Other>
+   </Transect>
+   <Transect>
+      <Filename type="char">20180411171432.mat</Filename>
+      <StartDateTime type="char">04/11/2018 17:14:32</StartDateTime>
+      <EndDateTime type="char">04/11/2018 17:17:17</EndDateTime>
+      <Discharge>
+         <Top type="double" unitsCode="cms">5.9377</Top>
+         <Middle type="double" unitsCode="cms">70.2745</Middle>
+         <Bottom type="double" unitsCode="cms">10.4408</Bottom>
+         <Left type="double" unitsCode="cms">0.14909</Left>
+         <Right type="double" unitsCode="cms">-0.039039</Right>
+         <Total type="double" unitsCode="cms">86.7631</Total>
+         <MovingBedPercentCorrection type="double">0</MovingBedPercentCorrection>
+      </Discharge>
+      <Edge>
+         <StartEdge type="char">Right</StartEdge>
+         <RectangularEdgeMethod type="char">Fixed</RectangularEdgeMethod>
+         <VelocityMethod type="char">MeasMag</VelocityMethod>
+         <LeftType type="char">Triangular</LeftType>
+         <LeftEdgeCoefficient type="double">0.3535</LeftEdgeCoefficient>
+         <LeftDistance type="double" unitsCode="m">5</LeftDistance>
+         <LeftNumberEnsembles type="double">11</LeftNumberEnsembles>
+         <RightType type="char">Triangular</RightType>
+         <RightEdgeCoefficient type="double">0.3535</RightEdgeCoefficient>
+         <RightDistance type="double" unitsCode="m">4</RightDistance>
+         <RightNumberEnsembles type="double">20</RightNumberEnsembles>
+      </Edge>
+      <Sensor>
+         <TemperatureSource type="char">internal</TemperatureSource>
+         <MeanTemperature type="double" unitsCode="degC">27.2711</MeanTemperature>
+         <MeanSalinity type="double" unitsCode="ppt">0</MeanSalinity>
+         <SpeedofSoundSource type="char">ADCP</SpeedofSoundSource>
+         <SpeedofSound type="double" unitsCode="mps">1502.2666</SpeedofSound>
+      </Sensor>
+      <Other>
+         <Duration type="double" unitsCode="sec">165</Duration>
+         <Width type="double" unitsCode="m">158.7839</Width>
+         <Area type="double" unitsCode="sqm">1102.6577</Area>
+         <MeanBoatSpeed type="double" unitsCode="mps">0.95172</MeanBoatSpeed>
+         <QoverA type="double" unitsCode="mps">0.078685</QoverA>
+         <CourseMadeGood type="double" unitsCode="deg">340.5249</CourseMadeGood>
+         <MeanFlowDirection type="double" unitsCode="deg">72.3164</MeanFlowDirection>
+         <NumberofEnsembles type="double">166</NumberofEnsembles>
+         <PercentInvalidBins type="double">9.1218</PercentInvalidBins>
+         <PercentInvalidEns type="double">0</PercentInvalidEns>
+         <MeanPitch type="double" unitsCode="deg">-0.61723</MeanPitch>
+         <MeanRoll type="double" unitsCode="deg">-0.93434</MeanRoll>
+         <PitchStdDev type="double" unitsCode="deg">0.71997</PitchStdDev>
+         <RollStdDev type="double" unitsCode="deg">0.24617</RollStdDev>
+         <ADCPDepth type="double" unitsCode="m">0.06</ADCPDepth>
+      </Other>
+   </Transect>
+   <ChannelSummary>
+      <Discharge>
+         <Top type="double" unitsCode="cms">5.9883</Top>
+         <Middle type="double" unitsCode="cms">72.9717</Middle>
+         <Bottom type="double" unitsCode="cms">9.4087</Bottom>
+         <Left type="double" unitsCode="cms">0.18548</Left>
+         <Right type="double" unitsCode="cms">-0.042977</Right>
+         <Total type="double" unitsCode="cms">88.5112</Total>
+         <MovingBedPercentCorrection type="double">0</MovingBedPercentCorrection>
+      </Discharge>
+      <Uncertainty>
+         <COV type="double">5.7957</COV>
+         <AutoRandom type="double">9.2223</AutoRandom>
+         <AutoInvalidData type="double">0.0054117</AutoInvalidData>
+         <AutoEdge type="double">0.077434</AutoEdge>
+         <AutoExtrapolation type="double">2.0517</AutoExtrapolation>
+         <AutoMovingBed type="double">3</AutoMovingBed>
+         <AutoSystematic type="double">1.5</AutoSystematic>
+         <AutoTotal type="double">10.3569</AutoTotal>
+         <UserTotal type="double">10.3569</UserTotal>
+         <Random type="char">9.2</Random>
+         <InvalidData type="char">0.0</InvalidData>
+         <Edge type="char">0.1</Edge>
+         <Extrapolation type="char">2.1</Extrapolation>
+         <MovingBed type="char">3.0</MovingBed>
+         <Systematic type="char">1.5</Systematic>
+         <Total type="char">10.4</Total>
+      </Uncertainty>
+      <Other>
+         <MeanWidth type="double" unitsCode="m">158.2416</MeanWidth>
+         <WidthCOV type="double">0.5438</WidthCOV>
+         <MeanArea type="double" unitsCode="sqm">1092.9283</MeanArea>
+         <AreaCOV type="double">0.68581</AreaCOV>
+         <MeanBoatSpeed type="double" unitsCode="mps">0.95979</MeanBoatSpeed>
+         <MeanQoverA type="double" unitsCode="mps">0.080985</MeanQoverA>
+         <MeanCourseMadeGood type="double" unitsCode="deg">340.5249</MeanCourseMadeGood>
+         <MeanFlowDirection type="double" unitsCode="deg">78.2153</MeanFlowDirection>
+         <MeanDepth type="double" unitsCode="m">5.7313</MeanDepth>
+         <MaximumDepth type="double" unitsCode="m">9.278</MaximumDepth>
+         <MaximumWaterSpeed type="double" unitsCode="mps">0.83327</MaximumWaterSpeed>
+         <NumberofTransects type="integer">4</NumberofTransects>
+         <Duration type="double" unitsCode="sec">663</Duration>
+         <LeftQPer type="double">0.20956</LeftQPer>
+         <RightQPer type="double">-0.048555</RightQPer>
+         <InvalidCellsQPer type="double">0.024497</InvalidCellsQPer>
+         <InvalidEnsQPer type="double">0.0025613</InvalidEnsQPer>
+         <UserRating type="text">Not Rated</UserRating>
+         <DischargePPDefault type="double">92.342</DischargePPDefault>
+      </Other>
+   </ChannelSummary>
+   <UserComment type="char">FileSave 05/14/2020 15:38:08: 20180411_Tarde_QRev by Guilherme Q=88.511 m3/s  |||</UserComment>
+</Channel>
