@@ -8,7 +8,6 @@ Autores:
 Data: 13/02/2024
 """
 
-
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -42,6 +41,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "rest_framework.authtoken",
     # aplicação
+    "datadash.apps.DatadashConfig",
     "users.apps.UsersConfig",
 ]
 
@@ -69,13 +69,13 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = "core.urls"
 
-CORS_ALLOWED_ORIGINS = ["http://localhost:8080",  ]
-CORS_ALLOW_HEADERS = ['Authorization', 'Content-Type']
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:8080",
+]
+CORS_ALLOW_HEADERS = ["Authorization", "Content-Type"]
 
 
-DJOSER = {
-    'ALLOW_REGISTRATION': True
-}
+DJOSER = {"ALLOW_REGISTRATION": True}
 
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": (
