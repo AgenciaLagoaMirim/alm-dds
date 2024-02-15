@@ -1,4 +1,4 @@
-# almdds
+# almdds-frontend
 
 ## Project setup
 ```
