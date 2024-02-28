@@ -76,7 +76,6 @@ CORS_ALLOWED_ORIGINS = [
 CORS_ALLOW_HEADERS = ["Authorization", "Content-Type"]
 
 
-
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": (
         "rest_framework.authentication.TokenAuthentication",

@@ -1,18 +1,44 @@
-CREATE MATERIALIZED VIEW IF NOT EXISTS public.setindexveldf
-TABLESPACE pg_default
-AS
- SELECT concat(sl.id, qd.id) AS id,
-    sl.data,
-    q."MeanQoverA" * q."MeanArea" AS vazao,
-    round((sl.velocityx * 0.01::double precision)::numeric, 3) AS velocityx,
-    round((sl.pressure * 1.092::double precision)::numeric, 3) AS level,
-    q."MeanQoverA",
-    q."MeanArea"
-   FROM sl_sg sl,
-    qrev_data qd,
-    qrev q
-  WHERE qd.startdate <= sl.data AND qd.enddate >= sl.data AND q.fk_qrev = qd.id
-WITH DATA;
 
-ALTER TABLE IF EXISTS public.setindexveldf
-    OWNER TO postgres;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

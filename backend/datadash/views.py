@@ -1,9 +1,13 @@
 from rest_framework.viewsets import ReadOnlyModelViewSet
 
 from .models import Channelsummary, Qrev, QrevData, Siteinformation, SlSg
-from .serializers import (ChannelsummarySerializer, QrevDataSerializer,
-                          QrevSerializer, SiteinformatonSerializer,
-                          SlSgSerializer)
+from .serializers import (
+    ChannelsummarySerializer,
+    QrevDataSerializer,
+    QrevSerializer,
+    SiteinformatonSerializer,
+    SlSgSerializer,
+)
 
 
 class ChannelsummaryReadOnlyViewSet(ReadOnlyModelViewSet):
