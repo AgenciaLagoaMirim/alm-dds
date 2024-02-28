@@ -1,13 +1,12 @@
 <template>
   <div class="d-flex" id="wrapper">
-    <!-- <NavBar/> -->
+    <NavBar/>
     <SideBar/>
     <PageContent/>
   </div>
 </template>
 <script>
 import SideBar from "@/layout/DashBoard/SideBar.vue"
-// import NavBar from "@/layout/DashBoard/NavBar.vue"
 import PageContent from "@/layout/DashBoard/PageContent.vue"
 
 export default {
@@ -15,7 +14,7 @@ export default {
   components: {
     SideBar,
     PageContent,
-    // NavBar,
+
   }
 }
 </script>
